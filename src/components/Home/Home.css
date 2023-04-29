@@ -1,0 +1,104 @@
+.Home {
+    width: 100%;
+    height: 500px;
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.Home .container {
+    width: 1200px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Home .container .left {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    background: var(--primary-color);
+    padding: 0rem 1rem;
+    border-radius: 1rem;
+    color: var(--tertiary-color);
+}
+
+.Home .container .left .heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0rem;
+}
+
+.Home .container .left .horizontal-row {
+    height: 0.2rem;
+    border: none;
+    background-color: var(--tertiary-color);
+    border-radius: 0.2rem;
+    margin: 0rem 0rem 1rem;
+}
+
+.Home .container .left .location {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+}
+
+.Home .container .left .location .box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0rem;
+}
+
+.Home .container .left .location .box input {
+    width: 100%;
+    height: 3rem;
+    padding: 1rem;
+    border: 2px solid var(--tertiary-color);
+    border-radius: 0.2rem;
+    font-family: var(--primary-font);
+    font-size: 1.2rem;
+}
+
+.Home .container .left .location .submitBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.Home .container .left .location .submitBox button {
+    width: 50%;
+    height: 2.5rem;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    font-family: var(--primary-font);
+    background-color: var(--primary-background);
+    color: var(--secondary-font-color);
+    transition: 0.4s;
+}
+
+.Home .container .left .location .submitBox button:hover {
+    background-color: var(--secondary-background);
+    color: var(--primary-font-color);
+    cursor: pointer;
+}
+
+/* 
+.input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border: none;
+    outline: none;
+    padding: 0.5rem 0.7rem;
+    font-size: 1.2rem;
+    color: #555;
+    font-family: var(--primary-font); 
+} */

@@ -19,6 +19,14 @@
     --tertiary-color: #212A3E;
     --quaternary-color: #9BA4B5;
 
+    /* background color */
+    --primary-background: #111;
+    --secondary-background: #fff;
+
+    /* font color */
+    --primary-font-color: #111;
+    --secondary-font-color: #fff;
+
     /* Font Family */
     --primary-font: 'Tilt Neon', cursive;
     --secondary-font: 'Caveat Brush', cursive;
@@ -27,51 +35,8 @@
 
 body,
 html {
-    font-size: 10px;
-    font-weight: 400;
     font-family: var(--primary-font);
     scroll-behavior: smooth;
-    line-height: 1.5;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-    margin: 0;
-}
-
-h1 {
-    font-size: 5rem;
-    line-height: 1.4;
-    font-weight: 600;
-}
-
-h2 {
-    font-size: 4rem;
-    font-weight: 600;
-    line-height: 1.2;
-}
-
-h3 {
-    font-size: 3rem;
-    line-height: 1.2;
-    font-weight: 700;
-}
-
-h4 {
-    font-size: 2.5rem;
-    font-weight: 700;
-    line-height: 1;
-}
-
-p {
-    font-size: 1.6rem;
-    line-height: 1.6;
-    font-weight: 400;
 }
 
 embed,
@@ -80,13 +45,6 @@ img,
 object {
     max-width: 100%;
 }
-
-ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
 
 
 ::-webkit-scrollbar {
